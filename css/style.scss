@@ -132,6 +132,10 @@ nav {
 .header_title {
   margin-left: 1rem;
   display: block;
+  text-decoration: none;
+  &:link {
+    text-decoration: none;
+  }
 }
 
 .header_img {
@@ -188,12 +192,20 @@ nav {
 .nav_item {
   flex: 1;
   text-align: center;
-  padding: 1rem 0;
+  // padding: 1rem 0;
   // border-top: dotted 1px #111;
   border-right: solid 2px #eee;
+  display: inline-block;
   &:last-child {
       border-right: 0;
   }
+}
+
+.nav_item_link {
+  padding: 1rem 0;
+  display: inline-block;
+  width: 100%;
+  // height: 50px;
 }
 
 /*
