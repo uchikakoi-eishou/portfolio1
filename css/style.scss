@@ -134,17 +134,24 @@ nav {
 
 .header_title_link {
   display: flex;
-  justify-content: center;
+  // justify-content: center;
   align-items: center;
+  &:link, &:visited, &:active {
+    text-decoration: none;
+    color: #777;
+  }
+}
+
+.header_logo {
+  margin-left: 1rem;
 }
 
 .header_title {
+  font-family: 'Baloo Tamma 2', cursive;
+  color: #777;
   margin-left: 1rem;
   display: block;
   text-decoration: none;
-  &:link {
-    text-decoration: none;
-  }
 }
 
 .header_img {
