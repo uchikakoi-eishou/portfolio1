@@ -172,9 +172,9 @@ footer {
 
 }
 
-// .copyright {
-  // margin-top: 10rem;
-// }
+.copyright {
+  margin: 1rem 0;
+}
 
 nav {
     position: fixed;
@@ -224,5 +224,6 @@ nav {
 
 .nav_item_name {
   font-size: 3px;
+  color: #777;
   // text-decoration: none;
 }

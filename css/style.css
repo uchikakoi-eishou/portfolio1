@@ -172,6 +172,10 @@ footer {
   margin: 0 1rem;
 }
 
+.copyright {
+  margin: 1rem 0;
+}
+
 nav {
   position: fixed;
   bottom: 0;
@@ -218,5 +222,6 @@ nav {
 
 .nav_item_name {
   font-size: 3px;
+  color: #777;
 }
 /*# sourceMappingURL=style.css.map */
