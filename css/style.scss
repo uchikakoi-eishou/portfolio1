@@ -203,18 +203,24 @@ nav {
   text-align: center;
 }
 
-// .card {
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-// }
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .main_title,
-.card {
+.card,
+.card_icon,
+.card_message {
   margin-top: 1rem;
 }
 
-
+// .card_title,
+// .card_title_jp,
+// .card_icon {
+//   text-align: center;
+// }
 
 footer {
   display: flex;
