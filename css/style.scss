@@ -199,6 +199,16 @@ nav {
 //   padding: 0 1rem;
 // }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.main_message {
+  margin-top: 1rem;
+}
+
 .main_title {
   text-align: center;
 }
@@ -209,13 +219,20 @@ nav {
   align-items: center;
 }
 
-.main_title,
+.container,
+.main_title {
+  margin-top: 2rem;
+}
+
 .card,
 .card_icon,
 .card_message {
   margin-top: 1rem;
 }
 
+.card_title_jp {
+  font-size: 0.5rem;
+}
 // .card_title,
 // .card_title_jp,
 // .card_icon {
