@@ -177,7 +177,7 @@ nav {
   margin-top: 1rem;
 }
 
-.container {
+.main_message {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -188,15 +188,21 @@ nav {
   text-align: center;
 }
 
-.main_message {
+.main_message p {
   margin-top: 1rem;
 }
 
+.main_message p:first-child {
+  margin-top: 0rem;
+}
+
 .main_title {
+  margin-top: 2rem;
   text-align: center;
 }
 
 .card {
+  margin-top: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -209,19 +215,16 @@ nav {
           align-items: center;
 }
 
-.container,
-.main_title {
-  margin-top: 2rem;
+.card_title_jp {
+  font-size: 0.5rem;
 }
 
-.card,
-.card_icon,
-.card_message {
+.card_icon {
   margin-top: 1rem;
 }
 
-.card_title_jp {
-  font-size: 0.5rem;
+.card_message {
+  margin-top: 1rem;
 }
 
 footer {
