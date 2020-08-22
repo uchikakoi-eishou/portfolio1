@@ -104,6 +104,25 @@ img:not([alt]) {
 **
 ** 立ち位置や大きさなど
 */
+@media screen and (min-width: 481px) {
+  html {
+    width: 480px;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+  header {
+    margin-top: 0;
+    padding-top: 1rem;
+  }
+  footer {
+    padding-bottom: 1rem;
+    margin-bottom: 91.08px;
+  }
+  nav {
+    max-width: 480px;
+  }
+}
+
 body {
   background-color: #eee;
   margin: 0;
