@@ -146,30 +146,28 @@ nav {
   background-color: #ccc;
 }
 
-.header_title_link {
+header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.header_title_link:link, .header_title_link:visited, .header_title_link:active {
-  text-decoration: none;
-  color: #777;
-}
-
-.header_logo {
-  margin-left: 1rem;
-}
-
 .header_title {
   font-family: 'Baloo Tamma 2', cursive;
   color: #777;
-  margin-left: 1rem;
-  display: block;
+  display: inline-block;
+}
+
+.header_title_link:link, .header_title_link:visited, .header_title_link:active {
   text-decoration: none;
+  color: #777;
 }
 
 .header_img {
